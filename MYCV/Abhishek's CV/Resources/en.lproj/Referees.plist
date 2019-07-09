@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <array>
+        <dict>
+            <key>title</key>
+            <string>Mr</string>
+            <key>firstName</key>
+            <string>Pankaj</string>
+            <key>lastName</key>
+            <string>Kamle</string>
+            <key>position</key>
+            <string>Head of Technology - Reliance</string>
+            <key>location</key>
+            <string>Network18 - Mumbai </string>
+            <key>connection</key>
+            <string>My mentor at Reliance, under his mentoring the app reached a stagerring 10 milion users</string>
+            <key>email</key>
+            <string>pankajKamle@gmail.com</string>
+            <key>phoneNumber</key>
+            <string>+91 9977838296</string>
+            <key>imageName</key>
+            <string>pankaj</string>
+        </dict>
+        <dict>
+            <key>title</key>
+            <string>Mr.</string>
+            <key>firstName</key>
+            <string>Amit</string>
+            <key>lastName</key>
+            <string>Narute</string>
+            <key>position</key>
+            <string>Professor</string>
+            <key>location</key>
+            <string>University of Mumbai</string>
+            <key>connection</key>
+            <string>Final year thesis supervisor.</string>
+            <key>email</key>
+            <string>amit.narute@gmail.com</string>
+            <key>phoneNumber</key>
+            <string>+91 9860670719</string>
+            <key>imageName</key>
+            <string>amit</string>
+        </dict>
+    </array>
+</plist>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>firstName</key>
+	<string>Abhishek </string>
+	<key>lastName</key>
+	<string>Dsilva </string>
+	<key>location</key>
+	<string>Mississauga, ON, Canada</string>
+	<key>email</key>
+	<string>dsilva.abhishek@gmail.com</string>
+	<key>phoneNumber</key>
+	<string>+1 (647) 335 9561</string>
+	<key>description</key>
+	<string>Je suis né en Inde et j&apos;ai passé mon enfance à Mumbai. J&apos;ai déménagé au Canada en 2019. Je suis un citoyen indien, un résident permanent du Canada et je parle couramment l&apos;anglais, le marathi et l&apos;hindi. Je suis un passionné de voyage et j&apos;ai appris à m&apos;adapter à presque tous les environnements. J&apos;aime passer mon temps libre avec mes amis ou bricoler avec l&apos;électronique et programmer des projets personnels.</string>
+	<key>imageName</key>
+	<string>profile_pic</string>
+	<key>backgroundImageInfo</key>
+	<dict>
+		<key>name</key>
+		<string>union_lake</string>
+		<key>extension</key>
+		<string>jpg</string>
+	</dict>
+</dict>
+</plist>

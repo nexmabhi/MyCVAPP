@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>status</key>
+	<string>Bachelor of Information Engineering</string>
+	<key>establishment</key>
+	<string>University of Mumbai</string>
+	<key>description</key>
+	<string>During my studies at the University of Mumbai, I made the most of all social and educational opportunities. I joined several clubs and was elected as a committee member for both social and educational clubs, and took a seminar on solving Rubix Cube. 
+
+U-MU taught me to learn and to create my own opportunities which allowed me to move faster in the software industry. The School of IT Engineering showed me that people can create the most astonishing innovations. University was a hub where I met many similar minded students and lecturers with whom to share and challenge ideas, which also sparked my final year project of Home Automation using Arm11 processor used in Raspberry Pi.</string>
+	<key>completion</key>
+	<string>Completed: Mid 2015</string>
+	<key>universityLogoImageName</key>
+	<string></string>
+	<key>backgroundImageInfo</key>
+	<dict>
+		<key>name</key>
+		<string>winthrop_hall</string>
+		<key>extension</key>
+		<string>jpg</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>importance</key>
+		<integer>1</integer>
+		<key>startDate</key>
+		<date>2007-08-17T03:00:00Z</date>
+		<key>endDate</key>
+		<date>2009-05-31T03:00:00Z</date>
+		<key>color</key>
+		<string>237,142,43,1</string>
+		<key>organisation</key>
+		<string>Mumbai University</string>
+		<key>position</key>
+		<string>Electronics Technology Vocational Studies</string>
+		<key>description</key>
+		<string>Studied Electronics Technology affiliated with Mumbai University , a course where I got the basic knowledge of Electronics and a spark to pursue Engineering, during my studies we built numerous projects, I was chosen to represent my college in intra college sience fair, Stood first in the fair and in studies. </string>
+		<key>imageName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>importance</key>
+		<integer>1</integer>
+		<key>startDate</key>
+		<date>2009-08-17T03:00:00Z</date>
+		<key>endDate</key>
+		<date>2012-05-31T03:00:00Z</date>
+		<key>color</key>
+		<string>252,49,89,1</string>
+		<key>organisation</key>
+		<string>Xavier&apos;s Technical Institute</string>
+		<key>position</key>
+		<string>Electronics and Telecommunication Engineering Diploma</string>
+		<key>description</key>
+		<string>Studies in ever prestigious Xaviers Technical Institute which is one of the oldest technical institute, A three year course in Electronics and Telecommunication was all i wanted to take my knowledge about electronics and Microprocessors to a new level. I even got an opportunity to represent my college in the intra college marathon and won. During my final year I had made a Moon Rover as my final year project.</string>
+		<key>imageName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>importance</key>
+		<integer>1</integer>
+		<key>startDate</key>
+		<date>2012-08-20T04:00:00Z</date>
+		<key>endDate</key>
+		<date>2015-08-01T04:00:00Z</date>
+		<key>color</key>
+		<string>198,68,252,1</string>
+		<key>organisation</key>
+		<string>University of Mumbai </string>
+		<key>position</key>
+		<string>Information Technology Engineering</string>
+		<key>description</key>
+		<string>I was lucky enough to get an admission into Mumbai university&apos;s top prestigious college Xaviers institute of Engineering. I did my best coz I had been admitted directly to the second year due to my advanced diploma.  I again got to win for my college in marathon and my final year project was a hit amoung the faculty which was even published into an engineering journal. It was &quot;Home Automation Using Raspberry Pi&quot; which had al the bells and whistles like Face recognition algo and much more </string>
+		<key>imageName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>importance</key>
+		<integer>1</integer>
+		<key>startDate</key>
+		<date>2015-09-02T03:00:00Z</date>
+		<key>endDate</key>
+		<date>2017-11-30T05:00:00Z</date>
+		<key>color</key>
+		<string>85,215,105,1</string>
+		<key>organisation</key>
+		<string>Nexm Software ltd.</string>
+		<key>position</key>
+		<string>Senior iOS Developer</string>
+		<key>description</key>
+		<string>Working at Nexm was the golden period of building my carrer in iOS, as I was the sole iOS developer with the company and had the responcibility of maintaining 4 successful and complex apps and had to develop 3 more from stratch, along with a chess engine and the famous Square Off project. It gave me a large picture and an opportunity to learn the nooks and corners of the technology.</string>
+		<key>imageName</key>
+		<string></string>
+	</dict>
+	<dict>
+		<key>importance</key>
+		<integer>1</integer>
+		<key>startDate</key>
+		<date>2017-12-19T04:00:00Z</date>
+		<key>endDate</key>
+		<date>2019-05-10T04:00:00Z</date>
+		<key>color</key>
+		<string>254,203,46,1</string>
+		<key>organisation</key>
+		<string>Reliance (Network18)</string>
+		<key>position</key>
+		<string>Senior iOS Developer</string>
+		<key>description</key>
+		<string>Reliance is a large organisation one amoung fortune 500, I learned a lot about Corporate strucure and formal documentation, a formal approach to development, Scrum, Agile environments, and intreaction with third party QA teams. Mentoring young professionals. It was a great experience where it put a lot of tools on my belt to face a challenge in any organisation.</string>
+	</dict>
+</array>
+</plist>

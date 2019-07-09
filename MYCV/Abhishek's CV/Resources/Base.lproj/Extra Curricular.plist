@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>organisation</key>
+		<string>Xaviers Technical Institute</string>
+		<key>position</key>
+		<string>Intra college Marathon</string>
+		<key>startDate</key>
+		<date>2011-11-21T05:00:00Z</date>
+		<key>endDate</key>
+		<date>2011-11-21T05:00:00Z</date>
+		<key>description</key>
+		<string>I won my college a marathon in intra college marathon competition</string>
+		<key>imageName</key>
+		<string>marathon</string>
+	</dict>
+	<dict>
+		<key>organisation</key>
+		<string>Xaviers institute of Engineering </string>
+		<key>position</key>
+		<string>Intra college Marathon, State level.</string>
+		<key>startDate</key>
+		<date>2013-09-24T04:00:00Z</date>
+		<key>endDate</key>
+		<date>2013-09-25T03:00:00Z</date>
+		<key>description</key>
+		<string>I won my engineering college a state level marathon.</string>
+		<key>imageName</key>
+		<string>marathon</string>
+	</dict>
+	<dict>
+		<key>organisation</key>
+		<string>Xavires Institute of Engineering </string>
+		<key>position</key>
+		<string>Rubix cube Workshop organiser</string>
+		<key>startDate</key>
+		<date>2015-02-03T03:00:00Z</date>
+		<key>endDate</key>
+		<date>2015-02-20T05:00:00Z</date>
+		<key>description</key>
+		<string>I had held a Rubix cube workshop on request from the faculty and it was a huge success.</string>
+		<key>imageName</key>
+		<string>rubix</string>
+	</dict>
+</array>
+</plist>

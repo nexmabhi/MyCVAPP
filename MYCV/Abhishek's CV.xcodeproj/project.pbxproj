@@ -1,0 +1,939 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05015ACC198DED2600C9DAE7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 05015ACE198DED2600C9DAE7 /* Localizable.strings */; };
+		050A5CE618FA35C400244F50 /* union_lake.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050A5CE518FA35C400244F50 /* union_lake.jpg */; };
+		050A5CE918FA35FA00244F50 /* winthrop_hall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 050A5CE818FA35FA00244F50 /* winthrop_hall.jpg */; };
+		050A5CEC18FA3D8100244F50 /* CVEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5CEB18FA3D8100244F50 /* CVEducationViewController.m */; };
+		050A5CF018FA4B7900244F50 /* CVReferee.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5CEF18FA4B7900244F50 /* CVReferee.m */; };
+		050A5CF418FA50FC00244F50 /* JOCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5CF318FA50FC00244F50 /* JOCollectionViewController.m */; };
+		050A5CF618FA55EF00244F50 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 050A5CF518FA55EF00244F50 /* MessageUI.framework */; };
+		050A5CF918FA593400244F50 /* UIApplication+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5CF818FA593400244F50 /* UIApplication+Extension.m */; };
+		050A5D0218FA738D00244F50 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5D0118FA738D00244F50 /* UIColor+Extension.m */; };
+		050A5D0518FA8C4400244F50 /* CVExperienceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5D0418FA8C4400244F50 /* CVExperienceObject.m */; };
+		050A5D0B18FA8FF200244F50 /* CVRoundedRectImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 050A5D0A18FA8FF200244F50 /* CVRoundedRectImageView.m */; };
+		0529487F197E1CB000739084 /* Experience.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05294881197E1CB000739084 /* Experience.plist */; };
+		05294884197E1CB500739084 /* Referees.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05294886197E1CB500739084 /* Referees.plist */; };
+		05294889197E1CB900739084 /* Extra Curricular.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0529488B197E1CB900739084 /* Extra Curricular.plist */; };
+		0529488E197E1CC100739084 /* Education.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05294890197E1CC100739084 /* Education.plist */; };
+		05294893197E1CC600739084 /* About Me.plist in Resources */ = {isa = PBXBuildFile; fileRef = 05294895197E1CC600739084 /* About Me.plist */; };
+		0550425018FD19A000CEDF2C /* CVContactor.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550424F18FD19A000CEDF2C /* CVContactor.m */; };
+		0550425518FD1C5400CEDF2C /* CVPersonalInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0550425418FD1C5400CEDF2C /* CVPersonalInfo.m */; };
+		056872EE18F6361E00132551 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056872ED18F6361E00132551 /* Foundation.framework */; };
+		056872F018F6361E00132551 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056872EF18F6361E00132551 /* CoreGraphics.framework */; };
+		056872F218F6361E00132551 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 056872F118F6361E00132551 /* UIKit.framework */; };
+		056872F818F6361E00132551 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 056872F618F6361E00132551 /* InfoPlist.strings */; };
+		056872FA18F6361E00132551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 056872F918F6361E00132551 /* main.m */; };
+		056872FE18F6361E00132551 /* CVAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 056872FD18F6361E00132551 /* CVAppDelegate.m */; };
+		0568730118F6361E00132551 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 056872FF18F6361E00132551 /* Main_iPhone.storyboard */; };
+		0568730418F6361E00132551 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0568730218F6361E00132551 /* Main_iPad.storyboard */; };
+		0568730918F6361E00132551 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0568730818F6361E00132551 /* Images.xcassets */; };
+		0568732718F6399200132551 /* CVHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568732618F6399200132551 /* CVHomeViewController.m */; };
+		0568732A18F64EAB00132551 /* CVTimelineTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568732918F64EAB00132551 /* CVTimelineTableViewController.m */; };
+		0568733318F64F8500132551 /* CVPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568733218F64F8500132551 /* CVPageViewController.m */; };
+		0568733E18F65B6B00132551 /* CVExtraCurricularTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568733D18F65B6B00132551 /* CVExtraCurricularTableViewController.m */; };
+		0568734A18F664FE00132551 /* CVProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568734918F664FE00132551 /* CVProfileView.m */; };
+		0568734E18F6788E00132551 /* JOCircleImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568734D18F6788E00132551 /* JOCircleImageView.m */; };
+		0568735018F678BD00132551 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0568734F18F678BD00132551 /* QuartzCore.framework */; };
+		0568735318F67ED700132551 /* CVReferencesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568735218F67ED700132551 /* CVReferencesCollectionViewController.m */; };
+		0568735618F680C100132551 /* CVRefereeCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0568735518F680C100132551 /* CVRefereeCollectionViewCell.m */; };
+		059482B0199242E30060C1DF /* CVTutorialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059482AF199242E30060C1DF /* CVTutorialViewController.m */; };
+		059482B6199244BE0060C1DF /* CVTutorialSwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 059482B5199244BE0060C1DF /* CVTutorialSwipeView.m */; };
+		0594FFAD18F7D72300422BA5 /* CVTimelineSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594FFAC18F7D72300422BA5 /* CVTimelineSplitViewController.m */; };
+		0594FFB018F7D73500422BA5 /* CVExtraCurricularSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0594FFAF18F7D73500422BA5 /* CVExtraCurricularSplitViewController.m */; };
+		05BE998A18F8FA320015D7D9 /* JOCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE998918F8FA320015D7D9 /* JOCircleView.m */; };
+		05BE998D18F908EE0015D7D9 /* NSError+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE998C18F908EE0015D7D9 /* NSError+Extension.m */; };
+		05BE999318F93A970015D7D9 /* CVPageContentNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE999218F93A970015D7D9 /* CVPageContentNavigationController.m */; };
+		05BE999618F93AD80015D7D9 /* CVPageContentSplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE999518F93AD80015D7D9 /* CVPageContentSplitViewController.m */; };
+		05BE999918F93B570015D7D9 /* CVTimelineNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE999818F93B570015D7D9 /* CVTimelineNavigationController.m */; };
+		05BE999D18F93B870015D7D9 /* CVExtraCurricularNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE999C18F93B870015D7D9 /* CVExtraCurricularNavigationController.m */; };
+		05BE99A118F93D630015D7D9 /* CVDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE99A018F93D630015D7D9 /* CVDetailViewController.m */; };
+		05BE99A418F96E950015D7D9 /* UIViewController+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE99A318F96E950015D7D9 /* UIViewController+Extension.m */; };
+		05BE99A718F96F4F0015D7D9 /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE99A618F96F4F0015D7D9 /* UIView+Snapshot.m */; };
+		05BE99AF18F97F010015D7D9 /* CVAboutMeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE99AE18F97F010015D7D9 /* CVAboutMeView.m */; };
+		05BECD02191CBA7D002445E3 /* AboutMe~iphone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BECD04191CBA7D002445E3 /* AboutMe~iphone.xib */; };
+		05BECD05191CBA82002445E3 /* AboutMe~ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BECD07191CBA82002445E3 /* AboutMe~ipad.xib */; };
+		05F75ABC18F6904C0061C1BC /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75ABB18F6904C0061C1BC /* UIView+Extension.m */; };
+		05F75AC918F69B120061C1BC /* CVTimelineEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75AC818F69B120061C1BC /* CVTimelineEvent.m */; };
+		05F75ACC18F69DF80061C1BC /* CVTimelineEventTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75ACB18F69DF80061C1BC /* CVTimelineEventTableViewCell.m */; };
+		05F75AD018F69EF70061C1BC /* NSDate+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75ACF18F69EF70061C1BC /* NSDate+Extension.m */; };
+		05F75AD318F6A2B50061C1BC /* JOTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75AD218F6A2B50061C1BC /* JOTableViewController.m */; };
+		05F75AD718F6AB800061C1BC /* CVExtraCurricularTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75AD618F6AB800061C1BC /* CVExtraCurricularTableViewCell.m */; };
+		05F75ADA18F6ABC90061C1BC /* CVExtraCurricularActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75AD918F6ABC90061C1BC /* CVExtraCurricularActivity.m */; };
+		05F75ADD18F6B0870061C1BC /* CVExtractedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75ADC18F6B0870061C1BC /* CVExtractedObject.m */; };
+		B54AD1AA22D526D6001396F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54AD1A922D526D6001396F2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05015ACD198DED2600C9DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05015ACF198DED2A00C9DAE7 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		05015AD0198DED2B00C9DAE7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		050A5CE518FA35C400244F50 /* union_lake.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = union_lake.jpg; sourceTree = "<group>"; };
+		050A5CE818FA35FA00244F50 /* winthrop_hall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = winthrop_hall.jpg; sourceTree = "<group>"; };
+		050A5CEA18FA3D8100244F50 /* CVEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVEducationViewController.h; sourceTree = "<group>"; };
+		050A5CEB18FA3D8100244F50 /* CVEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVEducationViewController.m; sourceTree = "<group>"; };
+		050A5CEE18FA4B7900244F50 /* CVReferee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVReferee.h; sourceTree = "<group>"; };
+		050A5CEF18FA4B7900244F50 /* CVReferee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVReferee.m; sourceTree = "<group>"; };
+		050A5CF118FA4FC600244F50 /* CVListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVListViewController.h; sourceTree = "<group>"; };
+		050A5CF218FA50FC00244F50 /* JOCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOCollectionViewController.h; sourceTree = "<group>"; };
+		050A5CF318FA50FC00244F50 /* JOCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOCollectionViewController.m; sourceTree = "<group>"; };
+		050A5CF518FA55EF00244F50 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		050A5CF718FA593400244F50 /* UIApplication+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+Extension.h"; sourceTree = "<group>"; };
+		050A5CF818FA593400244F50 /* UIApplication+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+Extension.m"; sourceTree = "<group>"; };
+		050A5D0018FA738D00244F50 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		050A5D0118FA738D00244F50 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		050A5D0318FA8C4400244F50 /* CVExperienceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExperienceObject.h; sourceTree = "<group>"; };
+		050A5D0418FA8C4400244F50 /* CVExperienceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExperienceObject.m; sourceTree = "<group>"; };
+		050A5D0918FA8FF200244F50 /* CVRoundedRectImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRoundedRectImageView.h; sourceTree = "<group>"; };
+		050A5D0A18FA8FF200244F50 /* CVRoundedRectImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRoundedRectImageView.m; sourceTree = "<group>"; };
+		05294873197E1C9100739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/AboutMe~iphone.strings"; sourceTree = "<group>"; };
+		05294874197E1C9100739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = "fr.lproj/AboutMe~ipad.strings"; sourceTree = "<group>"; };
+		05294875197E1C9100739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0529487C197E1CA400739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/AboutMe~iphone.strings"; sourceTree = "<group>"; };
+		0529487E197E1CA700739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = "en.lproj/AboutMe~ipad.strings"; sourceTree = "<group>"; };
+		05294880197E1CB000739084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Experience.plist; sourceTree = "<group>"; };
+		05294882197E1CB100739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Experience.plist; sourceTree = "<group>"; };
+		05294883197E1CB200739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Experience.plist; sourceTree = "<group>"; };
+		05294885197E1CB500739084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Referees.plist; sourceTree = "<group>"; };
+		05294887197E1CB600739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Referees.plist; sourceTree = "<group>"; };
+		05294888197E1CB600739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Referees.plist; sourceTree = "<group>"; };
+		0529488A197E1CB900739084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/Extra Curricular.plist"; sourceTree = "<group>"; };
+		0529488C197E1CBB00739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = "fr.lproj/Extra Curricular.plist"; sourceTree = "<group>"; };
+		0529488D197E1CBC00739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/Extra Curricular.plist"; sourceTree = "<group>"; };
+		0529488F197E1CC100739084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Education.plist; sourceTree = "<group>"; };
+		05294891197E1CC200739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Education.plist; sourceTree = "<group>"; };
+		05294892197E1CC300739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/Education.plist; sourceTree = "<group>"; };
+		05294894197E1CC600739084 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = "Base.lproj/About Me.plist"; sourceTree = "<group>"; };
+		05294896197E1CC800739084 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = "en.lproj/About Me.plist"; sourceTree = "<group>"; };
+		05294897197E1CC800739084 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = "fr.lproj/About Me.plist"; sourceTree = "<group>"; };
+		0550424E18FD19A000CEDF2C /* CVContactor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVContactor.h; sourceTree = "<group>"; };
+		0550424F18FD19A000CEDF2C /* CVContactor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVContactor.m; sourceTree = "<group>"; };
+		0550425318FD1C5400CEDF2C /* CVPersonalInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVPersonalInfo.h; sourceTree = "<group>"; };
+		0550425418FD1C5400CEDF2C /* CVPersonalInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVPersonalInfo.m; sourceTree = "<group>"; };
+		056872EA18F6361E00132551 /* Abhishek's CV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Abhishek's CV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		056872ED18F6361E00132551 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		056872EF18F6361E00132551 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		056872F118F6361E00132551 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		056872F518F6361E00132551 /* Abhishek's CV-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Abhishek's CV-Info.plist"; sourceTree = "<group>"; };
+		056872F718F6361E00132551 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		056872F918F6361E00132551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		056872FB18F6361E00132551 /* Abhishek's CV-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Abhishek's CV-Prefix.pch"; sourceTree = "<group>"; };
+		056872FC18F6361E00132551 /* CVAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVAppDelegate.h; sourceTree = "<group>"; };
+		056872FD18F6361E00132551 /* CVAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAppDelegate.m; sourceTree = "<group>"; };
+		0568730018F6361E00132551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		0568730318F6361E00132551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		0568730818F6361E00132551 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0568730F18F6361E00132551 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0568732518F6399200132551 /* CVHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVHomeViewController.h; sourceTree = "<group>"; };
+		0568732618F6399200132551 /* CVHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVHomeViewController.m; sourceTree = "<group>"; };
+		0568732818F64EAB00132551 /* CVTimelineTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTimelineTableViewController.h; sourceTree = "<group>"; };
+		0568732918F64EAB00132551 /* CVTimelineTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTimelineTableViewController.m; sourceTree = "<group>"; };
+		0568733118F64F8500132551 /* CVPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVPageViewController.h; sourceTree = "<group>"; };
+		0568733218F64F8500132551 /* CVPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVPageViewController.m; sourceTree = "<group>"; };
+		0568733418F6509C00132551 /* CVPageContentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVPageContentViewController.h; sourceTree = "<group>"; };
+		0568733C18F65B6B00132551 /* CVExtraCurricularTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtraCurricularTableViewController.h; sourceTree = "<group>"; };
+		0568733D18F65B6B00132551 /* CVExtraCurricularTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtraCurricularTableViewController.m; sourceTree = "<group>"; };
+		0568734018F65DB300132551 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		0568734818F664FE00132551 /* CVProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVProfileView.h; sourceTree = "<group>"; };
+		0568734918F664FE00132551 /* CVProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVProfileView.m; sourceTree = "<group>"; };
+		0568734C18F6788E00132551 /* JOCircleImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOCircleImageView.h; sourceTree = "<group>"; };
+		0568734D18F6788E00132551 /* JOCircleImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOCircleImageView.m; sourceTree = "<group>"; };
+		0568734F18F678BD00132551 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		0568735118F67ED700132551 /* CVReferencesCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVReferencesCollectionViewController.h; sourceTree = "<group>"; };
+		0568735218F67ED700132551 /* CVReferencesCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVReferencesCollectionViewController.m; sourceTree = "<group>"; };
+		0568735418F680C100132551 /* CVRefereeCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVRefereeCollectionViewCell.h; sourceTree = "<group>"; };
+		0568735518F680C100132551 /* CVRefereeCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVRefereeCollectionViewCell.m; sourceTree = "<group>"; };
+		0574719319976ADD00169F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		0574719519976ADE00169F3B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPhone.strings; sourceTree = "<group>"; };
+		0574719719976BDB00169F3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		0574719919976BDD00169F3B /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main_iPad.strings; sourceTree = "<group>"; };
+		059482AE199242E30060C1DF /* CVTutorialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTutorialViewController.h; sourceTree = "<group>"; };
+		059482AF199242E30060C1DF /* CVTutorialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTutorialViewController.m; sourceTree = "<group>"; };
+		059482B4199244BE0060C1DF /* CVTutorialSwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTutorialSwipeView.h; sourceTree = "<group>"; };
+		059482B5199244BE0060C1DF /* CVTutorialSwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTutorialSwipeView.m; sourceTree = "<group>"; };
+		0594FFAB18F7D72300422BA5 /* CVTimelineSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTimelineSplitViewController.h; sourceTree = "<group>"; };
+		0594FFAC18F7D72300422BA5 /* CVTimelineSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTimelineSplitViewController.m; sourceTree = "<group>"; };
+		0594FFAE18F7D73500422BA5 /* CVExtraCurricularSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtraCurricularSplitViewController.h; sourceTree = "<group>"; };
+		0594FFAF18F7D73500422BA5 /* CVExtraCurricularSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtraCurricularSplitViewController.m; sourceTree = "<group>"; };
+		059B38E5193ACFF500A5F144 /* CVCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVCategories.h; sourceTree = "<group>"; };
+		05BE998818F8FA320015D7D9 /* JOCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOCircleView.h; sourceTree = "<group>"; };
+		05BE998918F8FA320015D7D9 /* JOCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOCircleView.m; sourceTree = "<group>"; };
+		05BE998B18F908EE0015D7D9 /* NSError+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+Extension.h"; sourceTree = "<group>"; };
+		05BE998C18F908EE0015D7D9 /* NSError+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+Extension.m"; sourceTree = "<group>"; };
+		05BE999118F93A970015D7D9 /* CVPageContentNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVPageContentNavigationController.h; sourceTree = "<group>"; };
+		05BE999218F93A970015D7D9 /* CVPageContentNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVPageContentNavigationController.m; sourceTree = "<group>"; };
+		05BE999418F93AD80015D7D9 /* CVPageContentSplitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVPageContentSplitViewController.h; sourceTree = "<group>"; };
+		05BE999518F93AD80015D7D9 /* CVPageContentSplitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVPageContentSplitViewController.m; sourceTree = "<group>"; };
+		05BE999718F93B570015D7D9 /* CVTimelineNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTimelineNavigationController.h; sourceTree = "<group>"; };
+		05BE999818F93B570015D7D9 /* CVTimelineNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTimelineNavigationController.m; sourceTree = "<group>"; };
+		05BE999B18F93B870015D7D9 /* CVExtraCurricularNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtraCurricularNavigationController.h; sourceTree = "<group>"; };
+		05BE999C18F93B870015D7D9 /* CVExtraCurricularNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtraCurricularNavigationController.m; sourceTree = "<group>"; };
+		05BE999F18F93D630015D7D9 /* CVDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVDetailViewController.h; sourceTree = "<group>"; };
+		05BE99A018F93D630015D7D9 /* CVDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVDetailViewController.m; sourceTree = "<group>"; };
+		05BE99A218F96E950015D7D9 /* UIViewController+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Extension.h"; sourceTree = "<group>"; };
+		05BE99A318F96E950015D7D9 /* UIViewController+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Extension.m"; sourceTree = "<group>"; };
+		05BE99A518F96F4F0015D7D9 /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		05BE99A618F96F4F0015D7D9 /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
+		05BE99AD18F97F010015D7D9 /* CVAboutMeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVAboutMeView.h; sourceTree = "<group>"; };
+		05BE99AE18F97F010015D7D9 /* CVAboutMeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVAboutMeView.m; sourceTree = "<group>"; };
+		05BECD03191CBA7D002445E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/AboutMe~iphone.xib"; sourceTree = "<group>"; };
+		05BECD06191CBA82002445E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = "Base.lproj/AboutMe~ipad.xib"; sourceTree = "<group>"; };
+		05E342AE193AD29600662461 /* CVPagingConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVPagingConstants.h; sourceTree = "<group>"; };
+		05F75ABA18F6904C0061C1BC /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		05F75ABB18F6904C0061C1BC /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		05F75AC718F69B120061C1BC /* CVTimelineEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTimelineEvent.h; sourceTree = "<group>"; };
+		05F75AC818F69B120061C1BC /* CVTimelineEvent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTimelineEvent.m; sourceTree = "<group>"; };
+		05F75ACA18F69DF80061C1BC /* CVTimelineEventTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVTimelineEventTableViewCell.h; sourceTree = "<group>"; };
+		05F75ACB18F69DF80061C1BC /* CVTimelineEventTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVTimelineEventTableViewCell.m; sourceTree = "<group>"; };
+		05F75ACE18F69EF70061C1BC /* NSDate+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Extension.h"; sourceTree = "<group>"; };
+		05F75ACF18F69EF70061C1BC /* NSDate+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Extension.m"; sourceTree = "<group>"; };
+		05F75AD118F6A2B50061C1BC /* JOTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTableViewController.h; sourceTree = "<group>"; };
+		05F75AD218F6A2B50061C1BC /* JOTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTableViewController.m; sourceTree = "<group>"; };
+		05F75AD518F6AB800061C1BC /* CVExtraCurricularTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtraCurricularTableViewCell.h; sourceTree = "<group>"; };
+		05F75AD618F6AB800061C1BC /* CVExtraCurricularTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtraCurricularTableViewCell.m; sourceTree = "<group>"; };
+		05F75AD818F6ABC90061C1BC /* CVExtraCurricularActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtraCurricularActivity.h; sourceTree = "<group>"; };
+		05F75AD918F6ABC90061C1BC /* CVExtraCurricularActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtraCurricularActivity.m; sourceTree = "<group>"; };
+		05F75ADB18F6B0870061C1BC /* CVExtractedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtractedObject.h; sourceTree = "<group>"; };
+		05F75ADC18F6B0870061C1BC /* CVExtractedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtractedObject.m; sourceTree = "<group>"; };
+		B54AD1A922D526D6001396F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		056872E718F6361E00132551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050A5CF618FA55EF00244F50 /* MessageUI.framework in Frameworks */,
+				0568735018F678BD00132551 /* QuartzCore.framework in Frameworks */,
+				056872F018F6361E00132551 /* CoreGraphics.framework in Frameworks */,
+				056872F218F6361E00132551 /* UIKit.framework in Frameworks */,
+				056872EE18F6361E00132551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		050A5CE718FA35C900244F50 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				0568730818F6361E00132551 /* Images.xcassets */,
+				050A5CE518FA35C400244F50 /* union_lake.jpg */,
+				050A5CE818FA35FA00244F50 /* winthrop_hall.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		050A5CED18FA3D8500244F50 /* Education */ = {
+			isa = PBXGroup;
+			children = (
+				050A5CEA18FA3D8100244F50 /* CVEducationViewController.h */,
+				050A5CEB18FA3D8100244F50 /* CVEducationViewController.m */,
+			);
+			path = Education;
+			sourceTree = "<group>";
+		};
+		050A5D0618FA8FC200244F50 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				050A5CF118FA4FC600244F50 /* CVListViewController.h */,
+				05F75AD118F6A2B50061C1BC /* JOTableViewController.h */,
+				05F75AD218F6A2B50061C1BC /* JOTableViewController.m */,
+				050A5CF218FA50FC00244F50 /* JOCollectionViewController.h */,
+				050A5CF318FA50FC00244F50 /* JOCollectionViewController.m */,
+				05BE999118F93A970015D7D9 /* CVPageContentNavigationController.h */,
+				05BE999218F93A970015D7D9 /* CVPageContentNavigationController.m */,
+				05BE999418F93AD80015D7D9 /* CVPageContentSplitViewController.h */,
+				05BE999518F93AD80015D7D9 /* CVPageContentSplitViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		050A5D0718FA8FCA00244F50 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				05F75ADB18F6B0870061C1BC /* CVExtractedObject.h */,
+				05F75ADC18F6B0870061C1BC /* CVExtractedObject.m */,
+				050A5D0318FA8C4400244F50 /* CVExperienceObject.h */,
+				050A5D0418FA8C4400244F50 /* CVExperienceObject.m */,
+				0550424E18FD19A000CEDF2C /* CVContactor.h */,
+				0550424F18FD19A000CEDF2C /* CVContactor.m */,
+			);
+			path = Objects;
+			sourceTree = "<group>";
+		};
+		050A5D0818FA8FCF00244F50 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				05BE998818F8FA320015D7D9 /* JOCircleView.h */,
+				05BE998918F8FA320015D7D9 /* JOCircleView.m */,
+				0568734C18F6788E00132551 /* JOCircleImageView.h */,
+				0568734D18F6788E00132551 /* JOCircleImageView.m */,
+				050A5D0918FA8FF200244F50 /* CVRoundedRectImageView.h */,
+				050A5D0A18FA8FF200244F50 /* CVRoundedRectImageView.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		056872E118F6361E00132551 = {
+			isa = PBXGroup;
+			children = (
+				056872F318F6361E00132551 /* Abhishek's CV */,
+				056872EC18F6361E00132551 /* Frameworks */,
+				056872EB18F6361E00132551 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		056872EB18F6361E00132551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				056872EA18F6361E00132551 /* Abhishek's CV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		056872EC18F6361E00132551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				050A5CF518FA55EF00244F50 /* MessageUI.framework */,
+				0568734F18F678BD00132551 /* QuartzCore.framework */,
+				0568734018F65DB300132551 /* QuickLook.framework */,
+				056872ED18F6361E00132551 /* Foundation.framework */,
+				056872EF18F6361E00132551 /* CoreGraphics.framework */,
+				056872F118F6361E00132551 /* UIKit.framework */,
+				0568730F18F6361E00132551 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		056872F318F6361E00132551 /* Abhishek's CV */ = {
+			isa = PBXGroup;
+			children = (
+				056872FC18F6361E00132551 /* CVAppDelegate.h */,
+				056872FD18F6361E00132551 /* CVAppDelegate.m */,
+				05BECD08191CBA90002445E3 /* User Interface */,
+				059482AD199242880060C1DF /* Tutorial */,
+				05BECD01191CBA61002445E3 /* Home */,
+				0568734B18F6650100132551 /* Profile */,
+				0568733518F650A200132551 /* Pages */,
+				05F75ABD18F690780061C1BC /* Helpers */,
+				0568734518F6618400132551 /* Resources */,
+				050A5CE718FA35C900244F50 /* Images */,
+				056872F418F6361E00132551 /* Supporting Files */,
+			);
+			path = "Abhishek's CV";
+			sourceTree = "<group>";
+		};
+		056872F418F6361E00132551 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				056872F518F6361E00132551 /* Abhishek's CV-Info.plist */,
+				056872F618F6361E00132551 /* InfoPlist.strings */,
+				056872F918F6361E00132551 /* main.m */,
+				056872FB18F6361E00132551 /* Abhishek's CV-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0568733518F650A200132551 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				05E342AE193AD29600662461 /* CVPagingConstants.h */,
+				0568733418F6509C00132551 /* CVPageContentViewController.h */,
+				0568733118F64F8500132551 /* CVPageViewController.h */,
+				0568733218F64F8500132551 /* CVPageViewController.m */,
+				05BE999A18F93B6B0015D7D9 /* Navigation Controllers */,
+				0594FFAA18F7D70B00422BA5 /* Split Controllers */,
+				0568733618F650B400132551 /* Timeline */,
+				0568733F18F65B7000132551 /* Extra Curricular */,
+				050A5CED18FA3D8500244F50 /* Education */,
+				0568733718F650BC00132551 /* References */,
+				05BE999E18F93D430015D7D9 /* Detail */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		0568733618F650B400132551 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				0568732818F64EAB00132551 /* CVTimelineTableViewController.h */,
+				0568732918F64EAB00132551 /* CVTimelineTableViewController.m */,
+				05F75ACA18F69DF80061C1BC /* CVTimelineEventTableViewCell.h */,
+				05F75ACB18F69DF80061C1BC /* CVTimelineEventTableViewCell.m */,
+				05F75AC718F69B120061C1BC /* CVTimelineEvent.h */,
+				05F75AC818F69B120061C1BC /* CVTimelineEvent.m */,
+			);
+			path = Timeline;
+			sourceTree = "<group>";
+		};
+		0568733718F650BC00132551 /* References */ = {
+			isa = PBXGroup;
+			children = (
+				0568735118F67ED700132551 /* CVReferencesCollectionViewController.h */,
+				0568735218F67ED700132551 /* CVReferencesCollectionViewController.m */,
+				0568735418F680C100132551 /* CVRefereeCollectionViewCell.h */,
+				0568735518F680C100132551 /* CVRefereeCollectionViewCell.m */,
+				050A5CEE18FA4B7900244F50 /* CVReferee.h */,
+				050A5CEF18FA4B7900244F50 /* CVReferee.m */,
+			);
+			path = References;
+			sourceTree = "<group>";
+		};
+		0568733F18F65B7000132551 /* Extra Curricular */ = {
+			isa = PBXGroup;
+			children = (
+				0568733C18F65B6B00132551 /* CVExtraCurricularTableViewController.h */,
+				0568733D18F65B6B00132551 /* CVExtraCurricularTableViewController.m */,
+				05F75AD518F6AB800061C1BC /* CVExtraCurricularTableViewCell.h */,
+				05F75AD618F6AB800061C1BC /* CVExtraCurricularTableViewCell.m */,
+				05F75AD818F6ABC90061C1BC /* CVExtraCurricularActivity.h */,
+				05F75AD918F6ABC90061C1BC /* CVExtraCurricularActivity.m */,
+			);
+			name = "Extra Curricular";
+			path = ExtraCurricular;
+			sourceTree = "<group>";
+		};
+		0568734518F6618400132551 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				05294881197E1CB000739084 /* Experience.plist */,
+				05294886197E1CB500739084 /* Referees.plist */,
+				0529488B197E1CB900739084 /* Extra Curricular.plist */,
+				05294890197E1CC100739084 /* Education.plist */,
+				05294895197E1CC600739084 /* About Me.plist */,
+				05015ACE198DED2600C9DAE7 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0568734B18F6650100132551 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				0568734818F664FE00132551 /* CVProfileView.h */,
+				0568734918F664FE00132551 /* CVProfileView.m */,
+				05BE99AD18F97F010015D7D9 /* CVAboutMeView.h */,
+				05BE99AE18F97F010015D7D9 /* CVAboutMeView.m */,
+				0550425318FD1C5400CEDF2C /* CVPersonalInfo.h */,
+				0550425418FD1C5400CEDF2C /* CVPersonalInfo.m */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		059482AD199242880060C1DF /* Tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				059482AE199242E30060C1DF /* CVTutorialViewController.h */,
+				059482AF199242E30060C1DF /* CVTutorialViewController.m */,
+				059482B4199244BE0060C1DF /* CVTutorialSwipeView.h */,
+				059482B5199244BE0060C1DF /* CVTutorialSwipeView.m */,
+			);
+			path = Tutorial;
+			sourceTree = "<group>";
+		};
+		0594FFAA18F7D70B00422BA5 /* Split Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0594FFAB18F7D72300422BA5 /* CVTimelineSplitViewController.h */,
+				0594FFAC18F7D72300422BA5 /* CVTimelineSplitViewController.m */,
+				0594FFAE18F7D73500422BA5 /* CVExtraCurricularSplitViewController.h */,
+				0594FFAF18F7D73500422BA5 /* CVExtraCurricularSplitViewController.m */,
+			);
+			name = "Split Controllers";
+			path = SplitControllers;
+			sourceTree = "<group>";
+		};
+		05BE999A18F93B6B0015D7D9 /* Navigation Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				05BE999718F93B570015D7D9 /* CVTimelineNavigationController.h */,
+				05BE999818F93B570015D7D9 /* CVTimelineNavigationController.m */,
+				05BE999B18F93B870015D7D9 /* CVExtraCurricularNavigationController.h */,
+				05BE999C18F93B870015D7D9 /* CVExtraCurricularNavigationController.m */,
+			);
+			name = "Navigation Controllers";
+			path = NavigationControllers;
+			sourceTree = "<group>";
+		};
+		05BE999E18F93D430015D7D9 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				05BE999F18F93D630015D7D9 /* CVDetailViewController.h */,
+				05BE99A018F93D630015D7D9 /* CVDetailViewController.m */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		05BECD01191CBA61002445E3 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0568732518F6399200132551 /* CVHomeViewController.h */,
+				0568732618F6399200132551 /* CVHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		05BECD08191CBA90002445E3 /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				056872FF18F6361E00132551 /* Main_iPhone.storyboard */,
+				0568730218F6361E00132551 /* Main_iPad.storyboard */,
+				05BECD04191CBA7D002445E3 /* AboutMe~iphone.xib */,
+				05BECD07191CBA82002445E3 /* AboutMe~ipad.xib */,
+				B54AD1A922D526D6001396F2 /* LaunchScreen.storyboard */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		05F75ABD18F690780061C1BC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				05F75ABE18F690820061C1BC /* Categories */,
+				05F75AD418F6A2B80061C1BC /* Subclasses */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		05F75ABE18F690820061C1BC /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				059B38E5193ACFF500A5F144 /* CVCategories.h */,
+				05BE998B18F908EE0015D7D9 /* NSError+Extension.h */,
+				05BE998C18F908EE0015D7D9 /* NSError+Extension.m */,
+				05F75ABA18F6904C0061C1BC /* UIView+Extension.h */,
+				05F75ABB18F6904C0061C1BC /* UIView+Extension.m */,
+				05F75ACE18F69EF70061C1BC /* NSDate+Extension.h */,
+				05F75ACF18F69EF70061C1BC /* NSDate+Extension.m */,
+				05BE99A218F96E950015D7D9 /* UIViewController+Extension.h */,
+				05BE99A318F96E950015D7D9 /* UIViewController+Extension.m */,
+				050A5CF718FA593400244F50 /* UIApplication+Extension.h */,
+				050A5CF818FA593400244F50 /* UIApplication+Extension.m */,
+				050A5D0018FA738D00244F50 /* UIColor+Extension.h */,
+				050A5D0118FA738D00244F50 /* UIColor+Extension.m */,
+				05BE99A518F96F4F0015D7D9 /* UIView+Snapshot.h */,
+				05BE99A618F96F4F0015D7D9 /* UIView+Snapshot.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		05F75AD418F6A2B80061C1BC /* Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				050A5D0618FA8FC200244F50 /* Controllers */,
+				050A5D0718FA8FCA00244F50 /* Objects */,
+				050A5D0818FA8FCF00244F50 /* Views */,
+			);
+			path = Subclasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		056872E918F6361E00132551 /* Abhishek's CV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0568731F18F6361E00132551 /* Build configuration list for PBXNativeTarget "Abhishek's CV" */;
+			buildPhases = (
+				056872E618F6361E00132551 /* Sources */,
+				056872E718F6361E00132551 /* Frameworks */,
+				056872E818F6361E00132551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Abhishek's CV";
+			productName = "Jad's CV";
+			productReference = 056872EA18F6361E00132551 /* Abhishek's CV.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		056872E218F6361E00132551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CV;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Abhishek Dsilva";
+				TargetAttributes = {
+					056872E918F6361E00132551 = {
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 056872E518F6361E00132551 /* Build configuration list for PBXProject "Abhishek's CV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+				fr,
+			);
+			mainGroup = 056872E118F6361E00132551;
+			productRefGroup = 056872EB18F6361E00132551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				056872E918F6361E00132551 /* Abhishek's CV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		056872E818F6361E00132551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05294889197E1CB900739084 /* Extra Curricular.plist in Resources */,
+				0568730418F6361E00132551 /* Main_iPad.storyboard in Resources */,
+				05BECD05191CBA82002445E3 /* AboutMe~ipad.xib in Resources */,
+				B54AD1AA22D526D6001396F2 /* LaunchScreen.storyboard in Resources */,
+				05015ACC198DED2600C9DAE7 /* Localizable.strings in Resources */,
+				050A5CE918FA35FA00244F50 /* winthrop_hall.jpg in Resources */,
+				05BECD02191CBA7D002445E3 /* AboutMe~iphone.xib in Resources */,
+				0568730918F6361E00132551 /* Images.xcassets in Resources */,
+				0568730118F6361E00132551 /* Main_iPhone.storyboard in Resources */,
+				050A5CE618FA35C400244F50 /* union_lake.jpg in Resources */,
+				056872F818F6361E00132551 /* InfoPlist.strings in Resources */,
+				0529487F197E1CB000739084 /* Experience.plist in Resources */,
+				05294884197E1CB500739084 /* Referees.plist in Resources */,
+				0529488E197E1CC100739084 /* Education.plist in Resources */,
+				05294893197E1CC600739084 /* About Me.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		056872E618F6361E00132551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05F75AD718F6AB800061C1BC /* CVExtraCurricularTableViewCell.m in Sources */,
+				059482B0199242E30060C1DF /* CVTutorialViewController.m in Sources */,
+				05BE99A718F96F4F0015D7D9 /* UIView+Snapshot.m in Sources */,
+				05F75ADD18F6B0870061C1BC /* CVExtractedObject.m in Sources */,
+				05BE999318F93A970015D7D9 /* CVPageContentNavigationController.m in Sources */,
+				05BE999D18F93B870015D7D9 /* CVExtraCurricularNavigationController.m in Sources */,
+				050A5CF918FA593400244F50 /* UIApplication+Extension.m in Sources */,
+				0568733318F64F8500132551 /* CVPageViewController.m in Sources */,
+				0594FFAD18F7D72300422BA5 /* CVTimelineSplitViewController.m in Sources */,
+				0568734A18F664FE00132551 /* CVProfileView.m in Sources */,
+				0594FFB018F7D73500422BA5 /* CVExtraCurricularSplitViewController.m in Sources */,
+				050A5CEC18FA3D8100244F50 /* CVEducationViewController.m in Sources */,
+				05F75ABC18F6904C0061C1BC /* UIView+Extension.m in Sources */,
+				05BE998A18F8FA320015D7D9 /* JOCircleView.m in Sources */,
+				05BE99AF18F97F010015D7D9 /* CVAboutMeView.m in Sources */,
+				0568735618F680C100132551 /* CVRefereeCollectionViewCell.m in Sources */,
+				05F75AD018F69EF70061C1BC /* NSDate+Extension.m in Sources */,
+				0568734E18F6788E00132551 /* JOCircleImageView.m in Sources */,
+				05F75ADA18F6ABC90061C1BC /* CVExtraCurricularActivity.m in Sources */,
+				050A5CF418FA50FC00244F50 /* JOCollectionViewController.m in Sources */,
+				059482B6199244BE0060C1DF /* CVTutorialSwipeView.m in Sources */,
+				050A5D0B18FA8FF200244F50 /* CVRoundedRectImageView.m in Sources */,
+				0550425018FD19A000CEDF2C /* CVContactor.m in Sources */,
+				050A5CF018FA4B7900244F50 /* CVReferee.m in Sources */,
+				05BE999618F93AD80015D7D9 /* CVPageContentSplitViewController.m in Sources */,
+				0568733E18F65B6B00132551 /* CVExtraCurricularTableViewController.m in Sources */,
+				0568732718F6399200132551 /* CVHomeViewController.m in Sources */,
+				05BE99A418F96E950015D7D9 /* UIViewController+Extension.m in Sources */,
+				0550425518FD1C5400CEDF2C /* CVPersonalInfo.m in Sources */,
+				0568732A18F64EAB00132551 /* CVTimelineTableViewController.m in Sources */,
+				05F75AD318F6A2B50061C1BC /* JOTableViewController.m in Sources */,
+				05F75ACC18F69DF80061C1BC /* CVTimelineEventTableViewCell.m in Sources */,
+				056872FA18F6361E00132551 /* main.m in Sources */,
+				056872FE18F6361E00132551 /* CVAppDelegate.m in Sources */,
+				05BE99A118F93D630015D7D9 /* CVDetailViewController.m in Sources */,
+				050A5D0518FA8C4400244F50 /* CVExperienceObject.m in Sources */,
+				050A5D0218FA738D00244F50 /* UIColor+Extension.m in Sources */,
+				05BE998D18F908EE0015D7D9 /* NSError+Extension.m in Sources */,
+				0568735318F67ED700132551 /* CVReferencesCollectionViewController.m in Sources */,
+				05BE999918F93B570015D7D9 /* CVTimelineNavigationController.m in Sources */,
+				05F75AC918F69B120061C1BC /* CVTimelineEvent.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		05015ACE198DED2600C9DAE7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05015ACD198DED2600C9DAE7 /* Base */,
+				05015ACF198DED2A00C9DAE7 /* fr */,
+				05015AD0198DED2B00C9DAE7 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		05294881197E1CB000739084 /* Experience.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05294880197E1CB000739084 /* Base */,
+				05294882197E1CB100739084 /* en */,
+				05294883197E1CB200739084 /* fr */,
+			);
+			name = Experience.plist;
+			sourceTree = "<group>";
+		};
+		05294886197E1CB500739084 /* Referees.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05294885197E1CB500739084 /* Base */,
+				05294887197E1CB600739084 /* en */,
+				05294888197E1CB600739084 /* fr */,
+			);
+			name = Referees.plist;
+			sourceTree = "<group>";
+		};
+		0529488B197E1CB900739084 /* Extra Curricular.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0529488A197E1CB900739084 /* Base */,
+				0529488C197E1CBB00739084 /* fr */,
+				0529488D197E1CBC00739084 /* en */,
+			);
+			name = "Extra Curricular.plist";
+			sourceTree = "<group>";
+		};
+		05294890197E1CC100739084 /* Education.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0529488F197E1CC100739084 /* Base */,
+				05294891197E1CC200739084 /* en */,
+				05294892197E1CC300739084 /* fr */,
+			);
+			name = Education.plist;
+			sourceTree = "<group>";
+		};
+		05294895197E1CC600739084 /* About Me.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05294894197E1CC600739084 /* Base */,
+				05294896197E1CC800739084 /* en */,
+				05294897197E1CC800739084 /* fr */,
+			);
+			name = "About Me.plist";
+			sourceTree = "<group>";
+		};
+		056872F618F6361E00132551 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				056872F718F6361E00132551 /* en */,
+				05294875197E1C9100739084 /* fr */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		056872FF18F6361E00132551 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0568730018F6361E00132551 /* Base */,
+				0574719319976ADD00169F3B /* en */,
+				0574719519976ADE00169F3B /* fr */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		0568730218F6361E00132551 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0568730318F6361E00132551 /* Base */,
+				0574719719976BDB00169F3B /* en */,
+				0574719919976BDD00169F3B /* fr */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		05BECD04191CBA7D002445E3 /* AboutMe~iphone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BECD03191CBA7D002445E3 /* Base */,
+				05294873197E1C9100739084 /* fr */,
+				0529487C197E1CA400739084 /* en */,
+			);
+			name = "AboutMe~iphone.xib";
+			sourceTree = "<group>";
+		};
+		05BECD07191CBA82002445E3 /* AboutMe~ipad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BECD06191CBA82002445E3 /* Base */,
+				05294874197E1C9100739084 /* fr */,
+				0529487E197E1CA700739084 /* en */,
+			);
+			name = "AboutMe~ipad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0568731D18F6361E00132551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0568731E18F6361E00132551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0568732018F6361E00132551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abhishek's CV/Abhishek's CV-Prefix.pch";
+				INFOPLIST_FILE = "Abhishek's CV/Abhishek's CV-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0568732118F6361E00132551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Abhishek's CV/Abhishek's CV-Prefix.pch";
+				INFOPLIST_FILE = "Abhishek's CV/Abhishek's CV-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_VERSION = 5.0;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		056872E518F6361E00132551 /* Build configuration list for PBXProject "Abhishek's CV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0568731D18F6361E00132551 /* Debug */,
+				0568731E18F6361E00132551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0568731F18F6361E00132551 /* Build configuration list for PBXNativeTarget "Abhishek's CV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0568732018F6361E00132551 /* Debug */,
+				0568732118F6361E00132551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 056872E218F6361E00132551 /* Project object */;
+}

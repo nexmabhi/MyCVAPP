@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  Abhishek's CV
+
+  Created by Abhishek Dsilva on 3/08/2019.
+  Copyright (c) 2019 Abhishek Dsilva. All rights reserved.
+*/
+
+"ExperienceTitle" = "Experience";
+"ExtraCurricularTitle" = "Extra Curricular";
+"EducationTitle" = "Education";
+"ReferencesTitle" = "References";
+
+"PresentDate" = "Present";
