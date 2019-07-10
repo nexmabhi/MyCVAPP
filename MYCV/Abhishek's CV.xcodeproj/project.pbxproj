@@ -68,7 +68,26 @@
 		05F75ADA18F6ABC90061C1BC /* CVExtraCurricularActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75AD918F6ABC90061C1BC /* CVExtraCurricularActivity.m */; };
 		05F75ADD18F6B0870061C1BC /* CVExtractedObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F75ADC18F6B0870061C1BC /* CVExtractedObject.m */; };
 		B54AD1AA22D526D6001396F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B54AD1A922D526D6001396F2 /* LaunchScreen.storyboard */; };
+		B54AD21D22D5C505001396F2 /* Abhishek_s_CVUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54AD21C22D5C505001396F2 /* Abhishek_s_CVUITests.m */; };
+		B54AD22B22D5C5A4001396F2 /* Abhishek_s_CVTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B54AD22A22D5C5A4001396F2 /* Abhishek_s_CVTests.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B54AD21F22D5C505001396F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056872E218F6361E00132551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056872E918F6361E00132551;
+			remoteInfo = "Abhishek's CV";
+		};
+		B54AD22D22D5C5A4001396F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 056872E218F6361E00132551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 056872E918F6361E00132551;
+			remoteInfo = "Abhishek's CV";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		05015ACD198DED2600C9DAE7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -202,6 +221,12 @@
 		05F75ADB18F6B0870061C1BC /* CVExtractedObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVExtractedObject.h; sourceTree = "<group>"; };
 		05F75ADC18F6B0870061C1BC /* CVExtractedObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVExtractedObject.m; sourceTree = "<group>"; };
 		B54AD1A922D526D6001396F2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B54AD21A22D5C505001396F2 /* Abhishek's CVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abhishek's CVUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54AD21C22D5C505001396F2 /* Abhishek_s_CVUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abhishek_s_CVUITests.m; sourceTree = "<group>"; };
+		B54AD21E22D5C505001396F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B54AD22822D5C5A4001396F2 /* Abhishek's CVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Abhishek's CVTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54AD22A22D5C5A4001396F2 /* Abhishek_s_CVTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Abhishek_s_CVTests.m; sourceTree = "<group>"; };
+		B54AD22C22D5C5A4001396F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +239,20 @@
 				056872F018F6361E00132551 /* CoreGraphics.framework in Frameworks */,
 				056872F218F6361E00132551 /* UIKit.framework in Frameworks */,
 				056872EE18F6361E00132551 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AD21722D5C505001396F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AD22522D5C5A4001396F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +324,8 @@
 			isa = PBXGroup;
 			children = (
 				056872F318F6361E00132551 /* Abhishek's CV */,
+				B54AD21B22D5C505001396F2 /* Abhishek's CVUITests */,
+				B54AD22922D5C5A4001396F2 /* Abhishek's CVTests */,
 				056872EC18F6361E00132551 /* Frameworks */,
 				056872EB18F6361E00132551 /* Products */,
 			);
@@ -294,6 +335,8 @@
 			isa = PBXGroup;
 			children = (
 				056872EA18F6361E00132551 /* Abhishek's CV.app */,
+				B54AD21A22D5C505001396F2 /* Abhishek's CVUITests.xctest */,
+				B54AD22822D5C5A4001396F2 /* Abhishek's CVTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -531,6 +574,24 @@
 			path = Subclasses;
 			sourceTree = "<group>";
 		};
+		B54AD21B22D5C505001396F2 /* Abhishek's CVUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B54AD21C22D5C505001396F2 /* Abhishek_s_CVUITests.m */,
+				B54AD21E22D5C505001396F2 /* Info.plist */,
+			);
+			path = "Abhishek's CVUITests";
+			sourceTree = "<group>";
+		};
+		B54AD22922D5C5A4001396F2 /* Abhishek's CVTests */ = {
+			isa = PBXGroup;
+			children = (
+				B54AD22A22D5C5A4001396F2 /* Abhishek_s_CVTests.m */,
+				B54AD22C22D5C5A4001396F2 /* Info.plist */,
+			);
+			path = "Abhishek's CVTests";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -551,6 +612,42 @@
 			productReference = 056872EA18F6361E00132551 /* Abhishek's CV.app */;
 			productType = "com.apple.product-type.application";
 		};
+		B54AD21922D5C505001396F2 /* Abhishek's CVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54AD22122D5C505001396F2 /* Build configuration list for PBXNativeTarget "Abhishek's CVUITests" */;
+			buildPhases = (
+				B54AD21622D5C505001396F2 /* Sources */,
+				B54AD21722D5C505001396F2 /* Frameworks */,
+				B54AD21822D5C505001396F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54AD22022D5C505001396F2 /* PBXTargetDependency */,
+			);
+			name = "Abhishek's CVUITests";
+			productName = "Abhishek's CVUITests";
+			productReference = B54AD21A22D5C505001396F2 /* Abhishek's CVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		B54AD22722D5C5A4001396F2 /* Abhishek's CVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B54AD22F22D5C5A4001396F2 /* Build configuration list for PBXNativeTarget "Abhishek's CVTests" */;
+			buildPhases = (
+				B54AD22422D5C5A4001396F2 /* Sources */,
+				B54AD22522D5C5A4001396F2 /* Frameworks */,
+				B54AD22622D5C5A4001396F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B54AD22E22D5C5A4001396F2 /* PBXTargetDependency */,
+			);
+			name = "Abhishek's CVTests";
+			productName = "Abhishek's CVTests";
+			productReference = B54AD22822D5C5A4001396F2 /* Abhishek's CVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -558,11 +655,22 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = CV;
+				LastSwiftUpdateCheck = 1020;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Abhishek Dsilva";
 				TargetAttributes = {
 					056872E918F6361E00132551 = {
 						LastSwiftMigration = 1020;
+					};
+					B54AD21922D5C505001396F2 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 056872E918F6361E00132551;
+					};
+					B54AD22722D5C5A4001396F2 = {
+						CreatedOnToolsVersion = 10.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 056872E918F6361E00132551;
 					};
 				};
 			};
@@ -582,6 +690,8 @@
 			projectRoot = "";
 			targets = (
 				056872E918F6361E00132551 /* Abhishek's CV */,
+				B54AD21922D5C505001396F2 /* Abhishek's CVUITests */,
+				B54AD22722D5C5A4001396F2 /* Abhishek's CVTests */,
 			);
 		};
 /* End PBXProject section */
@@ -606,6 +716,20 @@
 				05294884197E1CB500739084 /* Referees.plist in Resources */,
 				0529488E197E1CC100739084 /* Education.plist in Resources */,
 				05294893197E1CC600739084 /* About Me.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AD21822D5C505001396F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AD22622D5C5A4001396F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -660,7 +784,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B54AD21622D5C505001396F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54AD21D22D5C505001396F2 /* Abhishek_s_CVUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B54AD22422D5C5A4001396F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B54AD22B22D5C5A4001396F2 /* Abhishek_s_CVTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B54AD22022D5C505001396F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056872E918F6361E00132551 /* Abhishek's CV */;
+			targetProxy = B54AD21F22D5C505001396F2 /* PBXContainerItemProxy */;
+		};
+		B54AD22E22D5C5A4001396F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 056872E918F6361E00132551 /* Abhishek's CV */;
+			targetProxy = B54AD22D22D5C5A4001396F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		05015ACE198DED2600C9DAE7 /* Localizable.strings */ = {
@@ -912,6 +1065,110 @@
 			};
 			name = Release;
 		};
+		B54AD22222D5C505001396F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Abhishek's CVUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "dsilva.Abhishek-s-CVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abhishek's CV";
+			};
+			name = Debug;
+		};
+		B54AD22322D5C505001396F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Abhishek's CVUITests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "dsilva.Abhishek-s-CVUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Abhishek's CV";
+			};
+			name = Release;
+		};
+		B54AD23022D5C5A4001396F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Abhishek's CVTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "dsilva.Abhishek-s-CVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abhishek's CV.app/Abhishek's CV";
+			};
+			name = Debug;
+		};
+		B54AD23122D5C5A4001396F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "Abhishek's CVTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "dsilva.Abhishek-s-CVTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Abhishek's CV.app/Abhishek's CV";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -929,6 +1186,24 @@
 			buildConfigurations = (
 				0568732018F6361E00132551 /* Debug */,
 				0568732118F6361E00132551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54AD22122D5C505001396F2 /* Build configuration list for PBXNativeTarget "Abhishek's CVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54AD22222D5C505001396F2 /* Debug */,
+				B54AD22322D5C505001396F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B54AD22F22D5C5A4001396F2 /* Build configuration list for PBXNativeTarget "Abhishek's CVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B54AD23022D5C5A4001396F2 /* Debug */,
+				B54AD23122D5C5A4001396F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
